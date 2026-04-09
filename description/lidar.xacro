@@ -4,6 +4,9 @@
     <link name="lidar_link">
         <visual>
             <geometry><mesh filename="package://jazzy_gz/meshes/lidar_link.STL" /></geometry>
+        <material name="light_black">
+        <color rgba="0.2 0.2 0.2 1.0" />
+        </material>
         </visual>
         <material name="red"/>
         <inertial>
